@@ -1,0 +1,63 @@
+ *{
+
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+}
+body{
+
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+     background-color: turquoise;
+     background-image:url('image/sugarcanefarm.jpeg') ;
+     background-size: cover;
+    
+}
+.topnav{
+    overflow: hidden;
+    background-color:grey;
+}
+.topnav a{
+    float: left;
+    display: block;
+     text-align: center;
+      padding: 25px 25px;
+    color: rgb(9, 9, 9);
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+.topnav a:hover{
+    background-color: blueviolet;
+    color:brown;
+}
+ .head {
+      text-align: center;
+      padding: 90px 70px;
+    }
+
+    h1 {
+      color:palevioletred;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color:black;
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+
+    img {
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+.footer{
+            background-color: blueviolet;
+             text-align: center;
+            color: white;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+              bottom: 0;
+}

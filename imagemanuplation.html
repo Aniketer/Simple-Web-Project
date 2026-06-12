@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+    <script src="img.js" defer></script>
+</head>
+<body>
+    <header>
+  <h1>Image Manipulation</h1>
+</header>
+
+<section class="gallery">
+  <h2>Image Gallery</h2>
+  <div class="thumbs">
+    <img src="image/n5.jpeg" alt="Thumb1" onclick="showImage(this)"> 
+    <img src="image/n2.jpeg" alt="Thumb2" onclick="showImage(this)">
+    <img src="image/n3.jpeg" alt="Thumb3" onclick="showImage(this)">
+    <img src="image/n4.jpeg" alt="Thumb4" onclick="showImage(this)">
+  </div>
+  <div class="preview">
+    <img id="large" src="image/n5.jpeg" alt="Large View">
+  </div>
+</section>
+
+<section class="slider">
+  <h2>Automatic Slideshow</h2>
+  <div class="slideshow">
+    <div class="slide fade"><img src="image/n5.jpeg" alt="Slide 1"></div>
+    <div class="slide fade"><img src="image/n2.jpeg" alt="Slide 2"></div>
+    <div class="slide fade"><img src="image/n3.jpeg" alt="Slide 3"></div>
+    <div class="slide fade"><img src="image/n4.jpeg" alt="Slide 4"></div>
+  </div>
+</section>
+
+<footer>
+  <p>Designed by Aniket Patil</p>
+</footer>
+</body>
+</html>

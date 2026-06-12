@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(128, 73, 135);
+    font-family: 'Times New Roman', Times, serif;
+     background-image:url('image/sugarcanefarm.jpeg') ;
+     background-size: cover;
+}
+.signup{
+    width: 360px;
+    height: 660px;
+    margin: auto;
+    background-color: rgb(244, 174, 174);
+    border-radius: 4px;
+}
+.login-box{
+    width:360px;
+    height: 270px;
+    margin: auto;
+    border-radius:4px;
+    background-color:rgb(244, 174, 174);
+    margin-top: 200px;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+form{
+    width: 300px;
+    margin-left :20px;
+}
+form label{
+    display: cover;
+    margin-top: 20px;
+    font-size: 15px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border:1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="Submit"]{
+    width:320px;
+    height:35px;
+    margin-top: 20px;
+    border: none;
+    color:rgb(43, 7, 173);
+    background-color: green;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+    padding-top: 8px;
+    font-size: 15px;
+}
+.para-2{
+    text-align: center;
+    color:rgb(74, 2, 2);
+    font-size: 20px;
+    margin-top: 15px;
+}
+.para-2 a{
+    color: rgb(4, 1, 21);
+}
